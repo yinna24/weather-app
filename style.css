@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+}
+
+body{
+	font-family: "Nunito",sans-serif;
+}
+
+.input{
+	text-align: center;
+	padding: 100px 0;
+}
+
+input[type="text"]{
+	height: 40px;
+	width: 400px;
+	/*background: #e7e7e7;*/
+	font-family: "Nunito",sans-serif;
+	font-weight: bold;
+	/*font-size: 20px;*/
+	border: 1px solid #fff;
+	border-radius: 2px; 
+	padding: 10px 10px;
+}
+
+input[type="submit"]{
+	height: 40px;
+	width: 70px;
+	/*background: #e7e7e7;*/
+	font-family: "Nunito",sans-serif;
+	font-weight: bold;
+	/*font-size: 20px;*/
+	border: none;
+	border-radius: 2px; 
+}
+
+.box{
+	background-image: url("img/clear.jpg");
+	height: 100%;
+	background-size: cover;
+}
+.background{
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+.display{
+	text-align: center;
+	line-height: 25px;
+}
+.display p{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+.display p span{
+	font-size: 16px;
+	font-weight: normal;
+}
+.name{
+	text-transform: uppercase;
+	font-family: "Nunito",sans-serif;
+}
+.tempDesc{
+	font-size: 12px;
+}
