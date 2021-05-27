@@ -1,7 +1,7 @@
 
 const button = document.querySelector('.button');
 const inputValue = document.querySelector('.inputValue');
-const api = '6bda9fb62f34664b58970fea30d1d419';
+const api = '{{API KEY}}';
 const iconImg = document.querySelector('.weather-icon');
 const locate = document.querySelector('.name');
 const tempC = document.querySelector('.tempC');
